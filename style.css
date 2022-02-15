@@ -2,6 +2,9 @@
 	color: unset;
 	text-decoration: none;
 }
+body{
+	background-color: var(--light-primary-color);
+}
 
 section{
 	background-image: url('./Assets/Images/homeBackground.jpg');
@@ -38,3 +41,4 @@ button a{
 	align-self: center;
 	margin-top: 4rem;
 }
+
