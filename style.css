@@ -1,0 +1,40 @@
+.list-inline-item a{
+	color: unset;
+	text-decoration: none;
+}
+
+section{
+	background-image: url('./Assets/Images/homeBackground.jpg');
+	background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  width: 100vw;
+  height: 90vh;
+  position: relative;
+
+}
+
+button{
+	outline: none;
+}
+
+button a{
+	color: var(--white-color);
+	text-decoration: none;
+}
+
+.banner-text{
+	position: absolute;
+	top: 16rem;
+	left: 10rem;
+	width: 43rem;
+}
+
+.banner-main p{
+	margin-top:3rem ;
+}
+
+.banner-text button{
+	align-self: center;
+	margin-top: 4rem;
+}
