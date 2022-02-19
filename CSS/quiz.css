@@ -10,8 +10,8 @@ body{
 	border-radius: 15px;
 	background-color: var(--dark-primary-color);
 	height: fit-content;
-	width: 600px;
-	margin-top: 30px;
+	width: 60rem;
+	margin-top: 3rem;
 	padding: 30px;
 }
 
