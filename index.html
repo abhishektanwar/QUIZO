@@ -4,9 +4,52 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Document</title>
+	<title>QUIZO | Home</title>
+	<link rel="stylesheet" href="https://vybe-ui.netlify.app/style.css">
+	<link rel="stylesheet" href="style.css">
+	<link href="https://fonts.googleapis.com/css2?family=Recursive:wght@400;500&display=swap" rel="stylesheet" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+		integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+		crossorigin="anonymous" />
+	<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500&display=swap" rel="stylesheet" />
 </head>
 <body>
-	
+	<nav class="nav-bar shadow-box" id="my-nav-bar">
+		<div class="nav-section">
+			<!-- hamburger menu -->
+			<div class="burger nav-section-items">
+				<div class="line1"></div>
+				<div class="line2"></div>
+				<div class="line3"></div>
+			</div>
+
+			<!-- LOGO -->
+			<div class="nav-logo nav-section-items">
+				<a class="link-no-style" href="./">
+					<div class="primary-text-color logo-title">QUIZO</div>
+				</a>
+			</div>
+			<ul class="nav-bar-links list-style-none nav-section-items">
+				<li class="list-inline-item avatar-in-nav-links">
+					<div class="primary-text-color logo-title">QUIZO</div>
+				</li>
+			</ul>
+		</div>
+
+		<!-- RIGHT SIDE NAV -->
+		<div class="nav-section right-nav-section">
+			<ul class="nav-icons list-style-none nav-section-item-width50pc">
+				<li class="list-inline-item"><button class="btn btn-filled-primary text-bold-weight"><a href="/pages/login.html" style="color: var(--white-color);">Login</a></button></li>
+				
+			</ul>
+		</div>
+	</nav>
+	<section class="banner-main">
+		<div class="card-text-container banner-text flex-column">
+			<h2>Organize Live Multiplayer Trivia Quiz for Your Event!</h2>
+			<p class="typo-sm">Quizo is a web-based Audience Engagement Cloud Platform for hosting interactive trivia quizzes at in-person, virtual, and hybrid events. No app install is required</p>
+			<button class="btn btn-filled-primary " ><a href="/Pages/quizes.html"> Get Started</a></button>
+		</div>
+	</section>
 </body>
 </html>
