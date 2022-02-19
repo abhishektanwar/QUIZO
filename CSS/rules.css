@@ -10,10 +10,10 @@ body{
 
 .rules{
 	background-color: var(--dark-primary-color);
-	height: 600px;
-	width: 700px;
-	border-radius: 15px;
-	padding: 20px;
+	height: 60rem;
+	width: 70rem;
+	border-radius: 1.5rem;
+	padding: 2rem;
 	color: var(--white-color);
 }
 
