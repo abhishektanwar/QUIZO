@@ -1,0 +1,40 @@
+body{
+	background-color: var(--light-primary-color);
+}
+
+.rules-container{
+	height: calc(100vh - 10vh);
+	align-items: center;
+	justify-content: center;
+}
+
+.rules{
+	background-color: var(--dark-primary-color);
+	height: 600px;
+	width: 700px;
+	border-radius: 15px;
+	padding: 20px;
+	color: var(--white-color);
+}
+
+
+.rules-heading{
+	text-align: center;
+}
+
+.rules-container a{
+	align-self: center;
+}
+
+button{
+	outline: none;
+}
+
+button a{
+	color: var(--white-color);
+	text-decoration: none;
+}
+
+.rules button{
+	margin-top: auto;
+}
