@@ -1,5 +1,5 @@
 body{
-	background-color: var(--light-primary-color);
+	background-color: var(--bg-color);
 }
 
 .quiz-container{
@@ -44,4 +44,19 @@ button a{
 	text-decoration: none;
 	cursor: pointer;
 	color: var(--white-color);
+}
+
+@media screen and (max-width:1024px){
+	.question-container{
+		width: 80vw;
+	}
+
+	.score{
+		margin-left: auto;
+		padding-right: 2rem;
+	}
+
+	.nav-logo{
+		display: block;
+	}
 }

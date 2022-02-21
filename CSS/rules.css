@@ -1,5 +1,5 @@
 body{
-	background-color: var(--light-primary-color);
+	background-color: var(--bg-color);
 }
 
 .rules-container{
@@ -37,4 +37,14 @@ button a{
 
 .rules button{
 	margin-top: auto;
+}
+
+@media screen and (max-width:1024px){
+	.rules{
+		width: 80vw;
+	}
+
+	.nav-logo{
+		display: block;
+	}
 }

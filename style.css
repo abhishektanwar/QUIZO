@@ -3,7 +3,7 @@
 	text-decoration: none;
 }
 body{
-	background-color: var(--light-primary-color);
+	background-color: var(--bg-color);
 }
 
 section{
@@ -31,6 +31,7 @@ button a{
 	top: 16rem;
 	left: 10rem;
 	width: 43rem;
+	color:var(--dark-secondary-text-color) ;
 }
 
 .banner-main p{
@@ -42,3 +43,8 @@ button a{
 	margin-top: 4rem;
 }
 
+@media screen and (max-width:1024px){
+	.nav-logo{
+		display: block;
+	}
+}
