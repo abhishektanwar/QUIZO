@@ -1,5 +1,5 @@
 body{
-	background-color: var(--light-primary-color);
+	background-color: var(--bg-color);
 }
 
 .list-inline-item a{
@@ -55,6 +55,7 @@ body{
 	-ms-overflow-style: none;
 	padding-inline: 1.6rem;
 	position: static;
+	overflow-y:hidden ;
 }
 
 .slider::-webkit-scrollbar {
@@ -97,4 +98,10 @@ button {
 	outline: none;
 	padding: 10px;
 	cursor: pointer;
+}
+
+@media screen and (max-width:1024px){
+	.nav-logo{
+		display: block;
+	}
 }
