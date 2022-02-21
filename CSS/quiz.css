@@ -39,3 +39,9 @@ body{
 .score{
 	margin-left: 30rem;
 }
+
+button a{
+	text-decoration: none;
+	cursor: pointer;
+	color: var(--white-color);
+}

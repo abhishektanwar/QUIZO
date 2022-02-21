@@ -98,11 +98,3 @@ button {
 	padding: 10px;
 	cursor: pointer;
 }
-
-#container #posts{
-	max-width: 30rem;
-	min-height: 5rem;
-	white-space: nowrap;
-	display: flex;
-	align-items: center;
-}
