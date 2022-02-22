@@ -17,7 +17,6 @@ body{
 	color: var(--white-color);
 }
 
-
 .rules-heading{
 	text-align: center;
 }
@@ -35,7 +34,7 @@ button a{
 	text-decoration: none;
 }
 
-.rules button{
+.rules a{
 	margin-top: auto;
 }
 
